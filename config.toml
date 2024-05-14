@@ -5,9 +5,9 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 # you can use rvmm-config-gen to generate a config
 
-[Twitter]
-apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
+[YouTube]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 arch = "arm-v7a"
-version = "latest"
-included-patches = "'Sanitize sharing links' 'Hide ads'"
+version = "19.11.43"
+included-patches = "'Remove tracking query parameter' 'Client spoof' 'Bypass URL redirects' 'GmsCore support' 'Hide layout components' 'Video ads' 'Hide ads'"
 exclusive-patches = true
